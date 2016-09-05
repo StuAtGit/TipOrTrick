@@ -5,13 +5,16 @@ android {
     buildToolsVersion "24.0.2"
 
     defaultConfig {
-        applicationId "com.shareplaylearn.androidlearn"
+        applicationId "com.shareplaylearn.androidlearn.tiportrick"
         minSdkVersion 15
         targetSdkVersion 24
         versionCode 1
         versionName "1.0"
     }
     buildTypes {
+        debug {
+            debuggable true
+        }
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
